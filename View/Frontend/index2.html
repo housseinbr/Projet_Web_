@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>HYGEIA</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Chargement...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-muted small me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Esprit Areana So8ra</a>
+                        <a href="tel:+01234567890" class="text-muted small me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+216 27 31 91 64</a>
+                        <a href="mailto:example@gmail.com" class="text-muted small me-0"><i class="fas fa-envelope text-primary me-2"></i>HYGEIA@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a href="inscription.html"><small class="me-3 text-dark"><i class="fa fa-user text-primary me-2"></i>Création de Compte</small></a>
+                        <a href="Connecter.html"><small class="me-3 text-dark"><i class="fa fa-sign-in-alt text-primary me-2"></i>Se connecter</small></a>
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fa fa-home text-primary me-2"></i> Mon tableau de bord</small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> Mon Profil</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Mes achats</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Paramètres du compte</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Se déconnecter</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="img/logo.png">
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                        <a href="about.html" class="nav-item nav-link">À propos</a>
+                        <a href="service.html" class="nav-item nav-link">Nos Services</a>
+                        <a href="blog.html" class="nav-item nav-link">Blogs</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Pages</span>
+                            </a>
+                            <div class="dropdown-menu m-0">
+                                <a href="feature.html" class="dropdown-item">Nos Fonctionnalités</a>
+                                <a href="team.html" class="dropdown-item">Notre Équipe</a>
+                                <a href="testimonial.html" class="dropdown-item">Témoignages</a>
+                                <a href="offer.html" class="dropdown-item">Nos Offres</a>
+                                <a href="FAQ.html" class="dropdown-item">FAQ</a>
+                                <!--<a href="404.html" class="dropdown-item">Page 404</a>-->
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contactez-nous</a>
+                    </div>
+                    <a href="inscription.html" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Commencer</a>
+                </div>
+            </nav>
+        </div>
+
+            <!-- Carousel Start -->
+            <div class="header-carousel owl-carousel">
+                <div class="header-carousel-item">
+                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-12 animated fadeInUp">
+                                    <div class="text-center">
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Bienvenu au HYGEIA</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Savoir manger est un art</h1>
+                                        <p class="mb-5 fs-5">Savoir manger demande une connaissance des aliments, de leurs bienfaits, et de la manière de les associer pour un équilibre nutritionnel. C’est un art car il englobe la créativité, la culture et le respect du corps.
+                                        </p>
+                                        <div class="d-flex justify-content-center flex-shrink-0 mb-4">
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Regarder La Video</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">On Commence</a>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2 class="text-white me-2">Suivez Nous :</h2>
+                                            <div class="d-flex justify-content-end ms-2">
+                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-carousel-item">
+                    <img src="img/carousel-2.jpeg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row gy-0 gx-5">
+                                <div class="col-lg-0 col-xl-5"></div>
+                                <div class="col-xl-7 animated fadeInLeft">
+                                    <div class="text-sm-center text-md-end">
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Bienvenu au HYGEIA</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Savoir manger est un art</h1>
+                                        <p class="mb-5 fs-5">Savoir manger demande une connaissance des aliments, de leurs bienfaits, et de la manière de les associer pour un équilibre nutritionnel. C’est un art car il englobe la créativité, la culture et le respect du corps. 
+                                        </p>
+                                        <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Regarder La Video</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">On Commence</a>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center justify-content-md-end">
+                                            <h2 class="text-white me-2">Suivez Nous :</h2>
+                                            <div class="d-flex justify-content-end ms-2">
+                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+
+        <!-- Abvout Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">À propos</h4>
+                            <h1 class="display-5 mb-4">Découvrez Votre Accompagnement Santé et Nutrition Personnalisé</h1>
+                            <p class="mb-4">Notre plateforme offre un service complet et personnalisé pour vous aider à atteindre vos objectifs de santé et de bien-être grâce à une approche nutritionnelle adaptée.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex">
+                                        <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
+                                        <div class="ms-4">
+                                            <h4>Évaluation et Recommandations Personnalisées</h4>
+                                            <p>Remplissez un formulaire détaillé pour fournir vos mesures et antécédents médicaux. Cela nous permet de vous offrir des régimes alimentaires adaptés à votre état de santé et à vos objectifs, que ce soit pour gérer une condition médicale ou améliorer votre alimentation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
+                                        <div class="ms-4">
+                                            <h4> Produits et Support Éducatif</h4>
+                                            <p>Accédez à notre boutique en ligne de produits spécialisés correspondant à vos besoins nutritionnels. Profitez également de formations en ligne élaborées par des experts pour approfondir vos connaissances. Notre chatbot IA est là pour répondre à vos questions en temps réel sur la nutrition et l'agriculture..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="inscription.html" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Decouvrez maintenant</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
+                                        <div>
+                                            <h4>Contacter nous sur</h4>
+                                            <p class="mb-0 fs-5" style="letter-spacing: 1px;">+216 27 31 91 64</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded position-relative overflow-hidden">
+                            <img src="img/about-2.jpg" class="img-fluid rounded w-100" alt="">
+                            
+                            <!--<div class="" style="position: absolute; top: -15px; right: -15px;">
+                                <img src="img/about-3.png" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
+                            </div>
+                            <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
+                                <img src="img/about-4.png" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
+                            </div>
+                            <div class="rounded-bottom">
+                                <img src="img/about-5.jpg" class="img-fluid rounded-bottom w-100" alt="">
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+                <!-- Blog Start -->
+                <div class="container-fluid blog py-5">
+                    <div class="container py-5">
+                        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                            <h4 class="text-primary">Nos Blogs</h4>
+                            <h1 class="display-5 mb-4">Innover en Agriculture et Alimentation</h1>
+                            <p class="mb-0">Découvrez nos articles qui explorent des tendances novatrices, offrent des conseils personnalisés et présentent des solutions avancées pour améliorer votre bien-être nutritionnel et soutenir des pratiques agricoles durables. Restez informé et inspirez-vous des meilleures pratiques pour une alimentation saine et une agriculture moderne.
+                            </p>
+                        </div>
+                        <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="blog-item p-4">
+                                <div class="blog-img mb-4">
+                                    <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="blog-title">
+                                        <a href="#" class="btn">On Commence</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="h4 d-inline-block mb-3">Formulaire détaillé pour recueillir des mesures anthropométriques et antécédents médicaux </a>
+                                <p class="mb-4">Optimisez Votre Nutrition avec Notre Formulaire Personnalisé
+                                    Découvrez comment notre formulaire détaillé, recueillant des mesures anthropométriques et des antécédents médicaux, permet de personnaliser vos conseils nutritionnels pour une santé optimale....
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <img src="img/houssein.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                                    <div class="ms-3">
+                                        <h5>Houssein Barbirou</h5>
+                                        <p class="mb-0">Novembre 8, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-item p-4">
+                                <div class="blog-img mb-4">
+                                    <img src="img/service-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="blog-title">
+                                        <a href="#" class="btn">On Commence</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="h4 d-inline-block mb-3">Une boutique spécialisée en produits adaptés aux régimes spécifiques</a>
+                                <p class="mb-4">Une Boutique Pour Tous Vos Besoins Alimentaires Spécifiques
+                                    Explorez notre boutique en ligne dédiée aux régimes alimentaires spécifiques. Que vous soyez végétarien, sans gluten, ou suiviez un autre régime, nous avons les produits qu'il vous faut."
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <img src="img/safa.jpeg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                                    <div class="ms-3">
+                                        <h5>Safa Jlassi</h5>
+                                        <p class="mb-0">Novembre 8, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-item p-4">
+                                <div class="blog-img mb-4">
+                                    <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="blog-title">
+                                        <a href="#" class="btn">On Commence</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="h4 d-inline-block mb-3">Formations en ligne payantes, axées sur la gestion de santé selon des conditions médicales spécifiques</a>
+                                <p class="mb-4">Formations en Ligne : Santé et Conditions Médicales
+                                    Apprenez à gérer efficacement votre santé avec nos formations en ligne spécialisées. Conçues pour répondre aux besoins de conditions médicales particulières, nos cours offrent des outils pratiques et des connaissances essentielles....
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <img src="img/fedi.jpeg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                                    <div class="ms-3">
+                                        <h5>Fedi Ben Mohamed</h5>
+                                        <p class="mb-0">Novembre 8, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-item p-4">
+                                <div class="blog-img mb-4">
+                                    <img src="img/service-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="blog-title">
+                                        <a href="#" class="btn">On Commence</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="h4 d-inline-block mb-3">Chatbot IA interactif pour des conseils en nutrition et agriculture</a>
+                                <p class="mb-4">Votre Conseiller IA en Nutrition et Agriculture, Disponible 24/24
+                                    Rencontrez notre chatbot intelligent, prêt à vous offrir des conseils personnalisés en nutrition et agriculture à tout moment. Une assistance instantanée et fiable pour tous vos besoins alimentaires et agricoles...
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <img src="img/oussema.jpeg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
+                                    <div class="ms-3">
+                                        <h5>Oussema Romdhani</h5>
+                                        <p class="mb-0">Novembre 8, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog End -->
+
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Nos Services</h4>
+                    <h1 class="display-5 mb-4">Optimisez Votre Santé avec Notre Accompagnement Nutritionnel</h1>
+                    <p class="mb-0">Optimisez votre bien-être grâce à notre accompagnement santé et nutrition personnalisé, incluant évaluation, régimes adaptés, boutique en ligne, formations et assistance IA.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/businesswoman-with-folder.jpg" class="img-fluid rounded-top w-100" alt="Évaluation Personnalisée">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Évaluation Personnalisée</a>
+                                <p class="mb-4">Nous proposons un formulaire d'évaluation complet où vous pouvez renseigner vos mesures (poids, taille, etc.), vos antécédents médicaux et votre régime alimentaire actuel. Cela nous permet de créer un profil de santé précis pour vous offrir un suivi sur mesure.</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/healthy-food-vs-unhealthy-food.jpg" class="img-fluid rounded-top w-100" alt="Régimes Alimentaires Adaptés">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Régimes Alimentaires Adaptés</a>
+                                <p class="mb-4">À partir de votre évaluation, nous vous fournissons des recommandations de régimes personnalisés, que ce soit pour gérer une condition de santé, perdre du poids ou améliorer votre alimentation générale. Nos options sont variées et équilibrées, adaptées à vos besoins spécifiques.</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/online-shopping-web-shop-e-shopping-concept.jpg" class="img-fluid rounded-top w-100" alt="Boutique en Ligne Spécialisée">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Boutique en Ligne Spécialisée</a>
+                                <p class="mb-4">Nous avons sélectionné une gamme de produits adaptés à chaque régime alimentaire, disponibles sur notre boutique en ligne. Cela facilite votre parcours vers une alimentation saine, en vous permettant d'accéder facilement à des aliments et compléments nutritionnels.</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/woman-taking-e-learning-courses.jpg" class="img-fluid rounded-top w-100" alt="Formations en Ligne">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Formations en Ligne</a>
+                                <p class="mb-4">Accédez à des formations spécialisées en nutrition et santé, conçues par des experts. Ces formations sont adaptées à vos antécédents médicaux et vous offrent des connaissances approfondies sur les meilleures pratiques alimentaires, contribuant ainsi à votre bien-être.</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/5174540.jpg" class="img-fluid rounded-top w-100" alt="Assistance par Chatbot IA">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Assistance par Chatbot IA</a>
+                                <p class="mb-4">Notre chatbot intelligent est là pour répondre à vos questions sur la nutrition et les bonnes pratiques alimentaires. Il fournit des conseils précis et fiables, vous aidant à faire des choix éclairés pour votre santé.</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/Odd1bis.png" class="img-fluid rounded-top w-100" alt="Alignement avec les ODD">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Alignement avec les ODD</a>
+                                <p class="mb-4">Notre plateforme soutient plusieurs ODD, notamment la bonne santé et le bien-être, la faim "zéro", et l'éducation de qualité. Nous contribuons à une consommation responsable et à des partenariats qui favorisent un impact positif sur la santé et l'environnement.</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Features Start -->
+        <div class="container-fluid feature pb-5" id="att">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Fonctionnalités</h4>
+                    <h1 class="display-5 mb-4">Fonctionnalités Essentielles.</h1>
+                    <p class="mb-0">Découvrez les fonctionnalités incontournables d’un site dédié à la nutrition et à la gestion de la santé. Conçues pour optimiser l'expérience utilisateur, ces options permettent d'accéder à des formations interactives, de personnaliser les objectifs nutritionnels, et de trouver rapidement les informations et recettes adaptées aux besoins de chacun.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-chart-line fa-4x text-primary"></i>
+                            </div>
+                            <h4>Plateforme de Cours en Ligne</h4>
+                            <p class="mb-4">Offrir un accès à des vidéos, supports PDF, et autres ressources pédagogiques, avec des fonctionnalités d'interaction telles que les forums de cours, permet aux utilisateurs d'apprendre de manière autonome et engageante.
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">On Commence</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-university fa-4x text-primary"></i>
+                            </div>
+                            <h4>Système de Recherche Avancé</h4>
+                            <p class="mb-4">Une barre de recherche efficace facilite l'accès aux informations clés, comme les articles, formations, et contenus spécifiques, améliorant ainsi l'expérience utilisateur en leur permettant de trouver rapidement ce qu'ils cherchent.
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">On Commence</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-file-alt fa-4x text-primary"></i>
+                            </div>
+                            <h4>Espace Membre Personnalisé</h4>
+                            <p class="mb-4">Avec une inscription sécurisée et un suivi des progrès, l'espace membre offre un accès exclusif aux contenus, permettant aux utilisateurs de suivre leurs progrès et d'accéder aux formations de manière personnalisée.
+
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">On Commence</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fas fa-hand-holding-usd fa-4x text-primary"></i>
+                            </div>
+                            <h4>Recettes et Planificateur de Repas</h4>
+                            <p class="mb-4">La base de données de recettes et l'outil de planification de repas personnalisé aident les utilisateurs à appliquer leurs connaissances en nutrition dans leur quotidien, en adaptant les recettes à leurs besoins spécifiques.
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">On Commence</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+
+        <!-- Offer Start -->
+        <div class="container-fluid offer-section py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Nos Offres</h4>
+                    <h1 class="display-5 mb-4">Avantages que Nous Offrons</h1>
+                    <p class="mb-0">Découvrez une sélection de programmes et d’ateliers en ligne axés sur la nutrition et le bien-être. Que vous soyez débutant, passionné de santé, ou professionnel de la santé, nos formations offrent des conseils pratiques et des connaissances approfondies adaptées à différents besoins, avec des supports multimédias et des suivis personnalisés.
+                    </p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="nav nav-pills bg-light rounded p-5">
+                            <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
+                                <h5 class="mb-0">Formation en Nutrition et Diététique</h5>
+                            </a>
+                            <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
+                                <h5 class="mb-0">Ateliers Thématiques Spécialisés</h5>
+                            </a>
+                            <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
+                                <h5 class="mb-0">Programme de Coaching Alimentaire Personnalisé</h5>
+                            </a>
+                            <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseFour">
+                                <h5 class="mb-0">Ressources et Supports Téléchargeables</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="tab-content">
+                            <div id="collapseOne" class="tab-pane fade show p-0 active">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/offer-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-5 mb-4">Formation en Nutrition et Diététique...</h1>
+                                        <p class="mb-4">Initiation complète à la nutrition, pour comprendre les besoins alimentaires et les régimes équilibrés.
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">On Commence</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseTwo" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/offer-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-5 mb-4">Ateliers Thématiques Spécialisés...</h1>
+                                        <p class="mb-4">Atelier sur la Nutrition pour Diabétiques : ajustement de l'alimentation pour gérer la glycémie.
+                                            Formation sur la Gestion du Cholestérol et de l’Hypertension : adoption de régimes anti-cholestérol et antihypertenseurs.
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">On Commence</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseThree" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/offer-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-5 mb-4">Programme de Coaching Alimentaire Personnalisé...</h1>
+                                        <p class="mb-4">Accompagnement sur mesure pour des objectifs de santé personnalisés (perte de poids, gestion de maladies).
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">On Commence</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseFour" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                                    <div class="col-md-7">
+                                        <img src="img/offer-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 class="display-5 mb-4">Ressources et Supports Téléchargeables...</h1>
+                                        <p class="mb-4">Atelier sur les Régimes Faibles en Glucides et le Jeûne Intermittent : principes et application saine.
+                                            Pack d’E-books et Fiches Recettes : idées de recettes saines pour différents objectifs de santé.
+                                        </p>
+                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">On Commence</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Offer End -->
+
+        
+
+
+        <!-- FAQs Start -->
+        <div class="container-fluid faq-section pb-5">
+            <div class="container pb-5 overflow-hidden">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">FAQs</h4>
+                    <h1 class="display-5 mb-4">Questions Fréquemment Posées</h1>
+                    <p class="mb-0">Explorez les questions courantes sur la nutrition et la gestion de la santé pour vous guider dans votre parcours de bien-être.</p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
+                            <div class="accordion-item rounded-top">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Quels aliments sont recommandés pour une alimentation équilibrée avec le diabète ?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">
+                                        Privilégiez les légumes non féculents, les protéines maigres (comme le poulet, le poisson), les grains entiers, et des graisses saines comme celles des noix et de l'avocat.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Quels types de glucides dois-je privilégier en cas de diabète ?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">
+                                        Optez pour les glucides complexes (comme les légumes, les légumineuses et les grains entiers) qui se digèrent lentement, aidant à stabiliser la glycémie.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Comment gérer mon taux de sucre après un repas ?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">
+                                        Faites de l'exercice léger après le repas, surveillez vos portions et mangez des aliments riches en fibres pour ralentir l'absorption des glucides.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        Quelle est la différence entre glucides simples et complexes ?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">
+                                        Les glucides simples (sucre, confiseries) sont absorbés rapidement, tandis que les glucides complexes (riz brun, légumineuses) se digèrent lentement, offrant une énergie durable.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        Les régimes faibles en glucides sont-ils efficaces ?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">
+                                        Ils peuvent aider à la perte de poids et à stabiliser la glycémie, mais un bon équilibre nutritionnel est essentiel.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-bottom">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                        Comment gérer les fringales et éviter le grignotage ?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">
+                                        Mangez des repas riches en fibres et en protéines, hydratez-vous bien, et prévoyez des collations saines comme des fruits ou des noix pour éviter les fringales.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded">
+                            <img src="img/faq.jpg" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FAQs End -->
+
+
+        <!-- Team Start -->
+        <div class="container-fluid team pb-5" id="team">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Notre equipe</h4>
+                    <h1 class="display-5 mb-4">Les Membres</h1>
+                    <p class="mb-0">Une équipe dynamique de développeurs web et codeurs, avec un membre spécialisé en nutrition, collabore pour offrir une expérience numérique axée sur la santé et le bien-être.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/houssein2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h4 class="mb-0">Houssein Barbirou</h4>
+                                <p class="mb-0">Developeur site Web</p>
+                            </div>
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.facebook.com/houssein.barbirou.1"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.linkedin.com/in/barbirou-houssein-318948237/"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/safa.jpeg" class="img-fluid" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h4 class="mb-0">Safa Jlassi</h4>
+                                <p class="mb-0">Developeur site Web et Nutritioniste</p>
+                            </div>
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.facebook.com/safa.jlss"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/fedi.jpeg" class="img-fluid" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h4 class="mb-0">Fedi Ben Mohamed</h4>
+                                <p class="mb-0">Developeur site Web</p>
+                            </div>
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.facebook.com/fedi.benmohamed.5"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/ranim.jpeg" class="img-fluid" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h4 class="mb-0">Ranim Mehouechi</h4>
+                                <p class="mb-0">Developeur site Web</p>
+                            </div>
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.facebook.com/profile.php?id=100082917075097"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/oussema.jpeg" class="img-fluid" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h4 class="mb-0">Oussema Romdhani</h4>
+                                <p class="mb-0">Developeur site Web</p>
+                            </div>
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.facebook.com/oussema.romdhane.54"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/njeh.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h4 class="mb-0">Yessine Njeh</h4>
+                                <p class="mb-0">Developeur site Web</p>
+                            </div>
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+<!-- Début des Témoignages -->
+<div class="container-fluid testimonial pb-5">
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Témoignages</h4>
+            <h1 class="display-5 mb-4">Avis de nos clients</h1>
+            <p class="mb-0">
+                Découvrez ce que disent nos utilisateurs et comment notre accompagnement personnalisé en santé et nutrition
+                a transformé leur bien-être et leurs habitudes alimentaires.
+            </p>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+            <!-- Témoignage 1 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote-left">
+                    <i class="fas fa-quote-left fa-2x"></i>
+                </div>
+                <div class="testimonial-img">
+                    <img src="img/safa.jpeg" class="img-fluid" alt="Image de client satisfait">
+                </div>
+                <div class="testimonial-text">
+                    <p class="mb-0">
+                        « Grâce à cette plateforme, j'ai pu suivre un régime personnalisé qui a parfaitement répondu à mes besoins.
+                        Un service de qualité et un accompagnement sans faille ! »
+                    </p>
+                </div>
+                <div class="testimonial-title">
+                    <h4 class="mb-0">Safa Jlassi</h4>
+                    <p class="mb-0">Professionnelle de la santé</p>
+                </div>
+                <div class="d-flex text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="testimonial-quote-right">
+                    <i class="fas fa-quote-right fa-2x"></i>
+                </div>
+            </div>
+            <!-- Témoignage 2 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote-left">
+                    <i class="fas fa-quote-left fa-2x"></i>
+                </div>
+                <div class="testimonial-img">
+                    <img src="img/houssein.jpg" class="img-fluid" alt="Image de client satisfait">
+                </div>
+                <div class="testimonial-text">
+                    <p class="mb-0">
+                        « Les recommandations alimentaires et la boutique de produits adaptés m’ont permis d’atteindre mes objectifs santé.
+                        Je recommande vivement ! »
+                    </p>
+                </div>
+                <div class="testimonial-title">
+                    <h4 class="mb-0">Houssein Barbirou</h4>
+                    <p class="mb-0">Entrepreneur</p>
+                </div>
+                <div class="d-flex text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="testimonial-quote-right">
+                    <i class="fas fa-quote-right fa-2x"></i>
+                </div>
+            </div>
+            <!-- Témoignage 3 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote-left">
+                    <i class="fas fa-quote-left fa-2x"></i>
+                </div>
+                <div class="testimonial-img">
+                    <img src="img/fedi.jpeg" class="img-fluid" alt="Image de client satisfait">
+                </div>
+                <div class="testimonial-text">
+                    <p class="mb-0">
+                        « Un service complet et personnalisé ! Les formations sont enrichissantes et le chatbot est très réactif pour toutes mes questions. »
+                    </p>
+                </div>
+                <div class="testimonial-title">
+                    <h4 class="mb-0">Fedi Ben Mohamed</h4>
+                    <p class="mb-0">Professeure de Yoga</p>
+                </div>
+                <div class="d-flex text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="testimonial-quote-right">
+                    <i class="fas fa-quote-right fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fin des Témoignages -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5 border-start-0 border-end-0" style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>HYGEIA</h4>
+                                <!-- <img src="img/logo.png" alt="Logo"> -->
+                            </a>
+                            <p class="mb-4">Savoir manger demande une connaissance des aliments, de leurs bienfaits, et de la manière de les associer pour un équilibre nutritionnel. C’est un art car il englobe la créativité, la culture et le respect du corps...</p>
+                            <div class="d-flex">
+                                <!--<a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
+                                    <i class="fas fa-apple-alt text-white"></i>
+                                    <div class="ms-3">
+                                        <small class="text-white">Download on the</small>
+                                        <h6 class="text-white">App Store</h6>
+                                    </div>
+                                </a>-->
+                                <a href="inscription.html" class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
+                                    <i class="fas fa-play text-primary"></i>
+                                    <div class="ms-3">
+                                        <small class="text-white">On commence</small>
+                                        <h6 class="text-white">inscriez vous maintenant</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-2">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Lien rapide</h4>
+                            <a href="#about"><i class="fas fa-angle-right me-2"></i> À propos</a>
+                            <a href="#service"><i class="fas fa-angle-right me-2"></i> Nos Services</a>
+                            <a href="#att"><i class="fas fa-angle-right me-2"></i> Attractions</a>
+                            <a href="#team"><i class="fas fa-angle-right me-2"></i> Team</a>
+                            <a href="#blog"><i class="fas fa-angle-right me-2"></i> Blogs</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contacte Nous</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Support</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Nos Contact</h4>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">Esprit Areana So8ra</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <p class="text-white mb-0">HYGEIA@gmail.com</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-phone-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">+216 27 31 91 64</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fab fa-firefox-browser text-primary me-3"></i>
+                                <p class="text-white mb-0">WebCoders@gmail.com.com</p>
+                            </div>
+                            <div class="d-flex">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>HYGEIA</a>, Tous droits réservés.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Cree par <a class="border-bottom text-white" href="https://htmlcodex.com"> Web Coders</a> Partager par  <a class="border-bottom text-white" href="https://themewagon.com">Web Coders</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
