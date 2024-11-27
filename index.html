@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HYGEIA</title>
+    <link rel="icon" href="./View/Frontend/img/logo.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./View/Frontend/menu/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <input type="checkbox" id="active" />
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul>
+        <li><a href="./View/Frontend/index2.html" target="contentFrame">Accueil</a></li>
+        <li><a href="./View/Frontend/boutique.html" target="contentFrame">Boutique</a></li>
+        <li><a href="./View/Frontend/evaluation.html" target="contentFrame">evaluation</a></li>
+        <li><a href="./View/Frontend/formation.html" target="contentFrame">Formation</a></li>
+        <li><a href="./View/Frontend/regime.html" target="contentFrame">Regime recomender</a></li>
+        <li><a href="./View/Frontend/suivi_regime.html" target="contentFrame">suivi regime</a></li>
+        <li><a href="./View/Frontend/regime_diab.html" target="contentFrame">suivi diabete</a></li>
+        <li><a href="./View/Frontend/reservation.html" target="contentFrame">Reservation</a></li>
+        <li><a href="./View/Backend/dashboard/template/index.html" target="contentFrame">Administration</a></li>
+        <li><a href="#" target="contentFrame">Votre Compte</a></li>
+        <li><a href="./View/Frontend/inscription.html" target="contentFrame">Inscription</a></li>
+        <li><a href="./View/Frontend/Connecter.html" target="contentFrame">Connecter</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <!-- Use iframe to load different pages -->
+      <iframe
+        name="contentFrame"
+        src="./View/Frontend/index2.html"
+        frameborder="0"
+        style="width: 100%; height: 100vh; border: none;"
+      ></iframe>
+    </div>
+    <script>
+      document.querySelectorAll('.wrapper ul li a').forEach(link => {
+        link.addEventListener('click', () => {
+          document.getElementById('active').checked = false;
+        });
+      });
+    </script>
+  </body>
+</html>
