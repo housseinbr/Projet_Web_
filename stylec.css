@@ -1,0 +1,20 @@
+.clock-container {
+  position: absolute;
+  top: 80px; /* Position légèrement plus basse */
+  right: 270px;
+  text-align: center;
+  padding: 20px; /* Ajusté pour un cercle plus uniforme */
+  border: 2px solid #ff0000; /* Rouge vif pour la bordure */
+  border-radius: 50%; /* Cercle parfait */
+  background-color: #ffffff; /* Fond blanc */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
+}
+
+#clock {
+  font-size: 1.5rem; /* Taille de police inchangée */
+  letter-spacing: 0.05rem;
+  color: #ff0000; /* Texte en rouge */
+  font-weight: bold; /* Accentuation du texte */
+}
+
+  
