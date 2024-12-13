@@ -42,11 +42,11 @@ $listeProduits = $produitController->listProduit();
                     <div class="profile-desc">
                         <div class="profile-pic">
                             <div class="count-indicator">
-                                <img class="img-xs rounded-circle " src="assets/images/faces/face15.jpg" alt="">
+                                <img class="img-xs rounded-circle " src="assets/images/faces/Fedi ben Mohamed.jpg" alt="">
                                 <span class="count bg-success"></span>
                             </div>
                             <div class="profile-name">
-                                <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
+                                <h5 class="mb-0 font-weight-normal">Fedi ben Mohamed</h5>
                                 <span>Gold Member</span>
                             </div>
                         </div>
@@ -297,8 +297,8 @@ $listeProduits = $produitController->listProduit();
                         <li class="nav-item dropdown">
                             <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                                 <div class="navbar-profile">
-                                    <img class="img-xs rounded-circle" src="assets/images/faces/face15.jpg" alt="">
-                                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
+                                    <img class="img-xs rounded-circle" src="assets/images/faces/Fedi ben Mohamed.jpg" alt="">
+                                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Fedi ben Mohamed</p>
                                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                                 </div>
                             </a>
