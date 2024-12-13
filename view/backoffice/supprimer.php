@@ -1,6 +1,6 @@
 <?php
 // Inclure le contrôleur Formation
-require_once 'C:/xampp/htdocs/frm4/controller/FormationController.php';  // Utiliser un chemin relatif
+require_once 'C:/xampp/htdocs/frm5/controller/FormationController.php';  // Utiliser un chemin relatif
 
 // Créer une instance du contrôleur
 $formationController = new FormationController();

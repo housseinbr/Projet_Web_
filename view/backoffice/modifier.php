@@ -1,6 +1,6 @@
 <?php
 
-require_once 'C:/xampp/htdocs/frm4/controller/FormationController.php'; 
+require_once 'C:/xampp/htdocs/frm5/controller/FormationController.php'; 
 
 $error = "";
 
@@ -128,12 +128,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <span class="menu-icon">
                             <i class="mdi mdi-laptop"></i>
                         </span>
-                        <span class="menu-title">Gestion Produit</span>
+                        <span class="menu-title">formation</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="collapse" id="ui-basic">
                         <ul class="nav flex-column sub-menu">
-                            <li class="nav-item"> <a class="nav-link" href="list.php">List Produit</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="list.php">List formation</a></li>
                             <li class="nav-item"> <a class="nav-link" href="ajoute.php">Ajouter formation</a></li>
                         </ul>
                     </div>

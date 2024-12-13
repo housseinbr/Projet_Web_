@@ -1,5 +1,5 @@
 <?php
-require_once 'C:/xampp/htdocs/frm4/controller/AccederFController.php';
+require_once 'C:/xampp/htdocs/frm5/controller/AccederFController.php';
 
 // Create an instance of the access controller
 $accessController = new AccederFController();
@@ -74,6 +74,8 @@ $listCat = $accessController->listCategories();
                         <ul class="nav flex-column sub-menu">
                             <li class="nav-item"> <a class="nav-link" href="listcat.php">Liste categorie</a></li>
                             <li class="nav-item"> <a class="nav-link" href="ajoutercat.php">Ajouter categorie</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="list.php">Liste de formation </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="ajouter.php">Ajouter formation </a></li>
                         </ul>
                     </div>
                 </li>
